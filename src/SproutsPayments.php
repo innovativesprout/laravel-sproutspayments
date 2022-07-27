@@ -4,6 +4,6 @@ class SproutsPayments{
 
     public function index()
     {
-        return 'Hello V2';
+        return 'Hello V22';
     }
 }
