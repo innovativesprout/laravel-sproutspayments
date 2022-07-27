@@ -1,0 +1,31 @@
+{
+    "name": "innovativesprout/laravel-sproutspayments",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerson",
+            "email": "jerson@innovativesprout.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Innovativesprout\\Sproutspayments\\": "src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Innovativesprout\\Sproutspayments\\SproutsPaymentsServiceProvider"
+            ],
+            "aliases": {
+                "SproutsPayments": "Innovativesprout\\Sproutspayments\\Facades\\SproutsPayments"
+            }
+        }
+    }
+}
