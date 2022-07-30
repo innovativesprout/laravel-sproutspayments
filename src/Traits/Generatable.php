@@ -30,6 +30,6 @@ trait Generatable{
             }
         }
 
-        return urlencode($link);
+        return $link;
     }
 }
