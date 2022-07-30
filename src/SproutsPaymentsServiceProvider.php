@@ -16,7 +16,7 @@ class SproutsPaymentsServiceProvider extends ServiceProvider{
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '../config/sproutspayments.php' => config_path('sproutspayments.php')
+            __DIR__ . '/../config/sproutspayments.php' => config_path('sproutspayments.php')
         ]);
     }
 
