@@ -18,7 +18,7 @@ class SproutsPayments{
 
     public function payment(): SproutsPayments
     {
-        $this->api_url = self::BASE_API.self::ENDPOINT_PAYMENT;
+        $this->api_url = self::BASE_API.self::ENDPOINT_PAYMENT.'?app_token='.config('sproutspayments.api_token');
         return $this;
     }
 

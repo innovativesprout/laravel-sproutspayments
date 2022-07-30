@@ -20,7 +20,7 @@ trait Generatable{
         $counter = 0;
         foreach ($payload as $index => $value) {
             if ($counter == 0){
-                $link .= '?';
+                $link .= '&';
             }
             $link .= $index.'='.$value;
             $counter += 1;
