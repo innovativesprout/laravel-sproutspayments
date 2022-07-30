@@ -1,10 +1,11 @@
 <?php namespace Innovativesprout\Sproutspayments;
 
-use Innovativesprout\SproutsPayments\Traits\HttpRequest;
+use Innovativesprout\Sproutspayments\Traits\Generatable;
+use Innovativesprout\Sproutspayments\Traits\HttpRequest;
 
 class SproutsPayments{
 
-    use HttpRequest;
+    use HttpRequest, Generatable;
 
     protected string $method;
     protected string $api_url = '';

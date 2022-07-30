@@ -1,4 +1,4 @@
-<?php namespace Innovativesprout\SproutsPayments\Traits;
+<?php namespace Innovativesprout\Sproutspayments\Traits;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
